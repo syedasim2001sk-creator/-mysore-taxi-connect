@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SM Tours and Travel - Mysore Taxi Connect. Outstation, local, airport, one-way, round-trip and wedding car rentals.">
+<title>Mysore Taxi Connect | SM Tours and Travel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">SM</div>
+    <div><strong>SM TOURS AND TRAVEL</strong><small>Safe Ride • Happy Journey</small></div>
+  </div>
+  <div class="contact">WhatsApp: <b>90807 69201</b></div>
+</header>
+
+<nav>
+  <a href="#home" data-en="Home" data-kn="ಮುಖಪುಟ">Home</a>
+  <a href="#services" data-en="Services" data-kn="ಸೇವೆಗಳು">Services</a>
+  <a href="#cars" data-en="Our Cars" data-kn="ನಮ್ಮ ಕಾರುಗಳು">Our Cars</a>
+  <a href="#booking" data-en="Book Taxi" data-kn="ಟ್ಯಾಕ್ಸಿ ಬುಕ್ ಮಾಡಿ">Book Taxi</a>
+  <a href="#contact" data-en="Contact" data-kn="ಸಂಪರ್ಕ">Contact</a>
+  <button id="langBtn" type="button">ಕನ್ನಡ</button>
+</nav>
+
+<main>
+<section id="home" class="hero">
+  <div class="heroText">
+    <span class="pill">SM TOURS AND TRAVEL</span>
+    <h1 data-en="Mysore Taxi Connect" data-kn="ಮೈಸೂರು ಟ್ಯಾಕ್ಸಿ ಕನೆಕ್ಟ್">Mysore Taxi Connect</h1>
+    <h2 data-en="Mysore Outstation Taxi" data-kn="ಮೈಸೂರು ಔಟ್‌ಸ್ಟೇಷನ್ ಟ್ಯಾಕ್ಸಿ">Mysore Outstation Taxi</h2>
+    <p data-en="Taxi service from Mysore to Bangalore and all other cities." data-kn="ಮೈಸೂರಿನಿಂದ ಬೆಂಗಳೂರು ಹಾಗೂ ಇತರ ನಗರಗಳಿಗೆ ಟ್ಯಾಕ್ಸಿ ಸೇವೆ.">Taxi service from Mysore to Bangalore and all other cities.</p>
+    <a class="btn" href="#booking" data-en="Get a Taxi Quote" data-kn="ಟ್ಯಾಕ್ಸಿ ದರ ಪಡೆಯಿರಿ">Get a Taxi Quote</a>
+  </div>
+</section>
+
+<section class="strip">
+  <div>🚕 <b data-en="Outstation Taxi" data-kn="ಔಟ್‌ಸ್ಟೇಷನ್ ಟ್ಯಾಕ್ಸಿ">Outstation Taxi</b></div>
+  <div>✈️ <b data-en="Airport Pickup & Drop" data-kn="ವಿಮಾನ ನಿಲ್ದಾಣ ಪಿಕಪ್ ಮತ್ತು ಡ್ರಾಪ್">Airport Pickup & Drop</b></div>
+  <div>🏙️ <b data-en="Local Taxi" data-kn="ಲೋಕಲ್ ಟ್ಯಾಕ್ಸಿ">Local Taxi</b></div>
+  <div>💍 <b data-en="Wedding & Function" data-kn="ಮದುವೆ ಮತ್ತು ಕಾರ್ಯಕ್ರಮ">Wedding & Function</b></div>
+</section>
+
+<section id="booking" class="booking section">
+  <div>
+    <p class="eyebrow">BOOK YOUR TAXI</p>
+    <h2 data-en="Tell us your trip details" data-kn="ನಿಮ್ಮ ಪ್ರಯಾಣದ ವಿವರಗಳನ್ನು ನೀಡಿ">Tell us your trip details</h2>
+    <p data-en="Submit the form and WhatsApp will open with your booking request." data-kn="ಫಾರ್ಮ್ ಸಲ್ಲಿಸಿದ ನಂತರ ನಿಮ್ಮ ಬುಕಿಂಗ್ ಸಂದೇಶದೊಂದಿಗೆ WhatsApp ತೆರೆಯುತ್ತದೆ.">Submit the form and WhatsApp will open with your booking request.</p>
+  </div>
+  <form id="bookingForm">
+    <div class="grid">
+      <label><span data-en="From" data-kn="ಇಂದ">From</span><input id="from" required placeholder="Mysore"></label>
+      <label><span data-en="To" data-kn="ಗೆ">To</span><input id="to" required placeholder="Bangalore"></label>
+      <label><span data-en="Travel date" data-kn="ಪ್ರಯಾಣ ದಿನಾಂಕ">Travel date</span><input id="date" type="date" required></label>
+      <label><span data-en="Passengers" data-kn="ಪ್ರಯಾಣಿಕರು">Passengers</span><input id="passengers" type="number" min="1" value="1" required></label>
+      <label class="full"><span data-en="Car preference" data-kn="ಕಾರು ಆಯ್ಕೆ">Car preference</span>
+        <select id="car">
+          <option>Any Car</option><option>Swift Dzire</option><option>Ertiga</option><option>Kia Sonet</option><option>Innova</option>
+        </select>
+      </label>
+    </div>
+    <button class="whatsapp" type="submit">🟢 <span data-en="Get Quote on WhatsApp" data-kn="WhatsApp ನಲ್ಲಿ ದರ ಪಡೆಯಿರಿ">Get Quote on WhatsApp</span></button>
+  </form>
+</section>
+
+<section id="services" class="section">
+  <p class="eyebrow">OUR SERVICES</p>
+  <h2 data-en="Travel for every occasion" data-kn="ಪ್ರತಿ ಪ್ರಯಾಣಕ್ಕೂ ನಮ್ಮ ಸೇವೆ">Travel for every occasion</h2>
+  <div class="cards">
+    <article><b>🛣️</b><h3>Outstation Taxi</h3><p>Long-distance travel across Karnataka and beyond.</p></article>
+    <article><b>↗️</b><h3>One-way Trips</h3><p>Convenient one-way taxi bookings.</p></article>
+    <article><b>🔄</b><h3>Round Trips</h3><p>Go and return with flexible travel plans.</p></article>
+    <article><b>✈️</b><h3>Airport Pickup/Drop</h3><p>Mysore, Bangalore and other airports.</p></article>
+    <article><b>🏙️</b><h3>Local Taxi</h3><p>City rides, sightseeing and local travel.</p></article>
+    <article><b>💍</b><h3>Wedding & Function</h3><p>Cars for weddings and special events.</p></article>
+  </div>
+</section>
+
+<section id="cars" class="section light">
+  <p class="eyebrow">OUR CARS</p>
+  <h2 data-en="Choose your comfortable ride" data-kn="ನಿಮ್ಮ ಆರಾಮದಾಯಕ ಕಾರನ್ನು ಆಯ್ಕೆಮಾಡಿ">Choose your comfortable ride</h2>
+  <div class="cars">
+    <div class="car"><div class="carpic">🚗</div><h3>Swift Dzire</h3><p>Comfortable & economical</p></div>
+    <div class="car"><div class="carpic">🚙</div><h3>Ertiga</h3><p>Spacious for families</p></div>
+    <div class="car"><div class="carpic">🚙</div><h3>Kia Sonet</h3><p>Stylish & premium</p></div>
+    <div class="car"><div class="carpic">🚐</div><h3>Innova</h3><p>Great for groups</p></div>
+  </div>
+</section>
+
+<section class="route">
+  <h2 data-en="Mysore ↔ Bangalore and beyond" data-kn="ಮೈಸೂರು ↔ ಬೆಂಗಳೂರು ಮತ್ತು ಇತರ ನಗರಗಳು">Mysore ↔ Bangalore and beyond</h2>
+  <p data-en="Rates depend on your pickup, destination, date and vehicle. Contact us for a quote." data-kn="ದರವು ಪಿಕಪ್, ಗಮ್ಯಸ್ಥಾನ, ದಿನಾಂಕ ಮತ್ತು ವಾಹನದ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ. ದರಕ್ಕಾಗಿ ಸಂಪರ್ಕಿಸಿ.">Rates depend on your pickup, destination, date and vehicle. Contact us for a quote.</p>
+  <a class="btn" href="https://wa.me/919080769201?text=Hello%20SM%20Tours%20and%20Travel%2C%20I%20want%20a%20taxi%20quote." target="_blank">WhatsApp Us</a>
+</section>
+</main>
+
+<footer id="contact">
+  <div><strong>SM TOURS AND TRAVEL</strong><p>Mysore Taxi Connect | Mysore Outstation Taxi</p></div>
+  <div><b>Contact</b><p>WhatsApp: 90807 69201<br>Mysore, Karnataka</p></div>
+  <div><b>Services</b><p>Outstation • Local • Airport<br>One-way • Round Trip • Events</p></div>
+  <div><b>Safe Ride • Happy Journey</b></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
